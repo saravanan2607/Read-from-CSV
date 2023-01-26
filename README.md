@@ -25,6 +25,7 @@ Increase the maximum number of rows to display the entire DataFrame.
 
 
 ## PROGRAM:
+```
 #DEVELOPED BY: C Saravanan
 #REGISTER NO: 22008175
 import pandas as pd
@@ -33,6 +34,7 @@ print(df.head(10))
 print(df.tail())
 print("Column",len(df.axes[0]))
 print("Row",len(df.axes[1]))
+```
 
 ## OUTPUT:
 
